@@ -1,0 +1,46 @@
+<!-- Header -->
+<header class="bg-blue-600 text-white p-4 shadow-md font-serif">
+  <div class="max-w-7xl mx-auto flex justify-between items-center">
+    <legend class="text-2xl font-medium text-center w-full md:w-auto">
+      Health Challenge Tracker
+    </legend>
+    <nav>
+      <ul class="hidden md:flex space-x-10 text-base">
+        <li><a href="#" class="hover:underline">Home</a></li>
+        <li><a href="/workout-list" class="hover:underline">Workout List</a></li>
+        <li><a href="/workout-chart" class="hover:underline">Progress Chart</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="text-nowrap md:hidden mt-4 flex justify-center space-x-6 px-4">
+    <ul class="flex space-x-10">
+      <li>
+        <a routerLink="/workout-form" class="block text-base hover:underline"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/workout-list"
+          class="block text-base hover:underline"
+          onclick="return false;"
+          >Workout List</a
+        >
+      </li>
+      <li>
+        <a routerLink="" class="block text-base hover:underline">Progress</a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<!--Workout Form-->
+
+<router-outlet></router-outlet>
+
+<!-- Footer -->
+<footer class="bg-blue-500 text-white p-3 font-serif font-base tracking-widest">
+  <div class="max-w-7xl mx-auto text-center">
+    <label>&copy; 2025 Fyle Health Tracker. All rights reserved.</label>
+  </div>
+</footer>
