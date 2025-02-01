@@ -96,7 +96,7 @@ Execute unit tests using [Karma](https://karma-runner.github.io).
 ## **Deployment**
 
 The application is live and hosted on Netlify:
-🌐 **[Live Demo]()**
+🌐 **[Live Demo](https://fyle-health-challenge.netlify.app/)**
 
 To deploy locally:
 
