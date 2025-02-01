@@ -1,0 +1,7 @@
+{
+  "routes": [
+    "/workout-chart",
+    "/workout-form",
+    "/workout-list"
+  ]
+}
